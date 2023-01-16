@@ -4,9 +4,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MainController {
+public class OrderController {
 
-    @RequestMapping("/")
+    @RequestMapping("/order")
     public String sayHello(){
         return "Welcome on my site";
     }
