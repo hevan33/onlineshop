@@ -1,14 +1,14 @@
-package pl.apro.onlineshop.controller;
+package pl.apro.onlineshop.productslist;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class AboutUsController {
+public class ProductsListController {
 
-    @RequestMapping("/about")
+    @RequestMapping("/products")
     public String sayHello(){
-        return "Welcome on my site";
+        return "Hey";
     }
 
 }

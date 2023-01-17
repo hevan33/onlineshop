@@ -1,4 +1,4 @@
-package pl.apro.onlineshop.controller;
+package pl.apro.onlineshop.contact;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
